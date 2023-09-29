@@ -1,0 +1,71 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 20px;
+  text-decoration: none;
+}
+.course-name {
+  font-weight: 500;
+  margin: 5px;
+  padding-left: 10px;
+  color: #475569;
+}
+.heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-weight: 500;
+  margin: 10px;
+  padding-left: 15px;
+  font-size: 28px;
+}
+.link {
+  text-decoration: none;
+}
+.loader-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+.failure-desc {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 18px;
+}
+.retry-btn {
+  background-color: #4656a1;
+  border-width: 0px;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+
